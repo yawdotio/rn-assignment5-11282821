@@ -1,28 +1,54 @@
 import React from "react";
-import { View, Text, StyleSheet, Image } from "react-native";
+import { View, Text, StyleSheet, Image, TouchableOpacity } from "react-native";
+import { ThemeContext } from "../styles/ThemeContext";
 
-const Header = ({ title }) => {
+const Header = ({ title , name, color}) => {
   return (
     <View style={styles.container}>
       <Image source={require("../assets/profile.png")} />
-      <Text style={styles.title}>{title}</Text>
-      <Text style={styles.title}>{title}</Text>
-      <Image source={require("../assets/icon.png")} />
+      <Text style={[styles.title, {color: color}]}>{title}</Text>
+      <Text style={[styles.name, {color: color}]}>{name}</Text>
+      <TouchableOpacity
+      >
+          <Image
+            style={styles.search}
+            source={require("../assets/search.png")}
+            resizeMode="contain"
+          />
+      </TouchableOpacity>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
-    padding: 16,
-    backgroundColor: "#1e1e1e", // Adjust for light/dark mode
+    justifyContent: "space-between",
+    height: 80,
+    width: "100%",
     alignItems: "center",
     flexDirection: "row",
+    paddingHorizontal: 10,
   },
   title: {
-    fontSize: 20,
-    color: "#fff", // Adjust for light/dark mode
+    fontSize: 15, 
+    position: "relative",
+    top: -12, 
+    left: 8,
   },
+  name: {
+    fontSize: 22, 
+    position: "relative",
+    top: 12,
+    right: 105,
+    fontWeight: "bold",
+  },
+  search: {
+    backgroundColor: "red",
+    height: 40,
+    width: 40,
+    borderRadius: 20,
+    backgroundColor: "#fff"
+  }
 });
 
 export default Header;
