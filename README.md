@@ -61,7 +61,7 @@ These components and elements work together to create a cohesive and dynamic use
 
 | Home Screen | Settings Screen |
 |-------------|---------------------|
-| ![Home Screen Light](.finance/assets/Screenshot_20240625-180040.jpg') | ![Transactions Screen Light](./finance/assets/Screenshot_20240625-180040.jpg') |
+| ![Home Screen Light](./finance/assets/Screenshot_20240625-180040.jpg') | ![Transactions Screen Light](./finance/assets/Screenshot_20240625-180040.jpg') |
 
 ### Dark Theme
 
