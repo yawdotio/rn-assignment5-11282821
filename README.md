@@ -61,10 +61,10 @@ These components and elements work together to create a cohesive and dynamic use
 
 | Home Screen | Settings Screen |
 |-------------|---------------------|
-| ![Home Screen Light](./finance/assets/Screenshot_20240625-180040.jpg') | ![Transactions Screen Light](./finance/assets/Screenshot_20240625-180040.jpg') |
+| ![Home Screen Light](./finance/assets/Screenshot_20240625-180051.jpg) | ![Transactions Screen Light](./finance/assets/Screenshot_20240625-180040.jpg) |
 
 ### Dark Theme
 
 | Home Screen | Settings Screen |
 |-------------|---------------------|
-| ![Home Screen Dark](./finance/assets/Screenshot_20240625-180011.png') | ![Settings Screen Dark](./finance/assets/Screenshot_20240625-180030.jpg') |
+| ![Home Screen Dark](./finance/assets/Screenshot_20240625-180011.png) | ![Settings Screen Dark](./finance/assets/Screenshot_20240625-180030.jpg) |
